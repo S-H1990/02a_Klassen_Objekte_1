@@ -10,21 +10,26 @@ public class App {
         //Cat -->Referenzetyp(Klasse)
       Cat cat = new Cat();
       //System.out.println(cat);
-      System.out.println("Blick von aussen: " + cat);
+      output("Blick von aussen: " + cat);
       cat.tellYourAdress();
 
-
+      output("test");
 
       System.out.println("----------------------------");
       
       Cat cat2 = new Cat();
       //System.out.println(cat2);
-        System.out.println("Blick von aussen: " + cat2);
+      output("Blick von aussen: " + cat2);
       cat2.tellYourAdress();
 
     }
 
-   
+   public static void output(String outputStr){
+       System.out.println(outputStr); 
+
+
+
+   }
 
 
 }

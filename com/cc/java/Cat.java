@@ -5,7 +5,7 @@ public class Cat {
     //this --> Instanzvariable
     void tellYourAdress(){
 
-        System.out.println("Blick von innen: " + this);
+       App.output("Blick von innen: " + this);
     }
 
 
